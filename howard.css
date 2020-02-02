@@ -1,0 +1,184 @@
+    .title-banner {
+        color: rgba(247, 8, 8, 0.993);
+        text-align: center;
+        text-decoration: underline;
+        text-shadow: 1px 0 5px;
+        text-decoration-color: black;
+        /* background-image: url("DeathDealer.jpg"); */
+        background: black;
+        background-size: contain;
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        border-style: solid;
+        border-width: 5px;
+        border-color: rgb(15, 6, 6);
+        font-size: absolute-size;
+        margin: 0px;
+        padding: 4em;
+        /* padding-bottom: 2em; */
+        font-style: bold;
+        /* font-size: 2em; */
+        letter-spacing: 5px;
+        position: relative;
+    }
+    
+    header {
+        font-size: xx-large;
+        font-weight: bolder;
+        text-justify: auto;
+        z-index: 10;
+    }
+    
+    .info-container {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        flex-basis: auto;
+        /* background-color: rgb(168, 179, 25); */
+        background-image: url("howard.jpg");
+        background-repeat: round;
+        /* background-size: cover; */
+        padding: 5em;
+        justify-content: space-between;
+    }
+    
+    .container-title {
+        position: absolute;
+        color: gold;
+        padding-top: 1em;
+        top: 122px;
+        left: 530px;
+        z-index: 5;
+    }
+    
+    .container-item {
+        border: solid rgb(14, 13, 13);
+        max-height: 200px;
+        padding: 3em;
+        overflow: scroll;
+        background-color: #9a0707;
+        z-index: 10;
+    }
+    /* #introHeading {
+        text-align: center;
+    } */
+    
+    #bioBod {
+        text-align: center;
+        /* background-color: black; */
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    #BgDiv {
+        display: none;
+    }
+    
+    #BgDiv2 {
+        display: none;
+    }
+    
+    #writingD {
+        display: none;
+    }
+    
+    #deathD {
+        display: none;
+    }
+    /* .carousel-item {
+        max-width: 500px;
+        max-height: 500px;
+    } */
+    /* body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+    
+    .slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    
+    .booksBod {
+        background-color: black;
+    }
+    
+    .carousel {
+        width: 640px;
+        height: 360px;
+    }
+    
+    footer {
+        color: white;
+    }
+    
+    footer a {
+        color: #bfffff;
+    }
+    
+    footer a:hover {
+        color: white;
+    }
+    
+    .footer-bottom {
+        background: #3d6277;
+        padding: 2em;
+    }
+    
+    .footer-top {
+        background: #2d4958;
+    }
+    
+    .footer-middle {
+        background: #3d6277;
+        padding-top: 2em;
+        color: white;
+    }
+    /**Sub Navigation**/
+    
+    .subnavigation-container {
+        background: #3d6277;
+    }
+    
+    .subnavigation .nav-link {
+        color: white;
+        font-weight: bold;
+    }
+    
+    .subnavigation-container {
+        text-align: center;
+    }
+    
+    .subnavigation-container .navbar {
+        display: inline-block;
+        margin-bottom: -6px;
+        /* Inline-block margin offffset HACK -Gilron */
+    }
+    
+    .col-subnav a {
+        padding: 1rem 1rem;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .col-subnav .active {
+        border-top: 5px solid orange;
+        background: white;
+        color: black;
+    }
+    /* .charBody {
+        background: url(https://2.bp.blogspot.com/-WFswCvfxqXk/W5gQqfAaISI/AAAAAAAAMUA/2rck7Sdds40raNevIYxITvrnNkLffN91gCK4BGAYYCw/s0/4d1442bd6c1ab961e1fdb99498c10bfc%2B%25281%2529.jpg);
+    } */
+    
+    body {
+        background: url(https://2.bp.blogspot.com/-WFswCvfxqXk/W5gQqfAaISI/AAAAAAAAMUA/2rck7Sdds40raNevIYxITvrnNkLffN91gCK4BGAYYCw/s0/4d1442bd6c1ab961e1fdb99498c10bfc%2B%25281%2529.jpg);
+    }
+    
+    .charContainer {
+        background: white;
+    }
