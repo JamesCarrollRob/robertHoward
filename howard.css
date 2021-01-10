@@ -38,7 +38,8 @@
         background-image: url("howard.jpg");
         background-repeat: round;
         /* background-size: cover; */
-        padding: 5em;
+        padding: 3em;
+        margin-bottom: 2em;
         justify-content: space-between;
     }
     
@@ -67,35 +68,6 @@
         text-align: center;
         /* background-color: black; */
     }
-    
-    ul {
-        list-style: none;
-    }
-    
-    #BgDiv {
-        display: none;
-    }
-    
-    #BgDiv2 {
-        display: none;
-    }
-    
-    #writingD {
-        display: none;
-    }
-    
-    #deathD {
-        display: none;
-    }
-    /* .carousel-item {
-        max-width: 500px;
-        max-height: 500px;
-    } */
-    /* body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
     
     .slider {
         display: flex;
@@ -181,4 +153,21 @@
     
     .charContainer {
         background: white;
+    }
+    /* .img-thumbnail {
+        min-width: 350px;
+        min-height: 203.44;
+    } */
+    
+    .img-thumbnail {
+        min-width: 350px;
+        min-height: 203.44;
+        width: 100%;
+        height: 100%;
+        im
+    }
+    
+    .img-thumbnail:hover {
+        transform: scale(1.5);
+        transition: transform .6s;
     }
